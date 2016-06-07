@@ -1,27 +1,28 @@
 //
-//  CharacterListConfigurator.swift
+//  CharacterConfigurator.swift
 //  marvel-viper
 //
-//  Created by Alan Lira on 6/3/16.
+//  Created by Alan Lira on 6/7/16.
 //  Copyright (c) 2016 Alan Lira. All rights reserved.
 //
+//  VIPER Template: https://github.com/gui-assis/ViperTemplate
 //  Authors:
 //    - Guilherme Assis http://github.com/gui-assis
 //    - Alan Lira http://github.com/alanmlira
 
 import UIKit
 
-class CharacterListModuleConfigurator {
+class CharacterModuleConfigurator {
 
-    static func configure(viewController: CharacterListViewController) {
+    static func configure(viewController: CharacterViewController) {
 
-        let router = CharacterListRouter()
+        let router = CharacterRouter()
 
-        let presenter = CharacterListPresenter()
+        let presenter = CharacterPresenter()
         presenter.view = viewController
         presenter.router = router
 
-        let interactor = CharacterListInteractor()
+        let interactor = CharacterInteractor()
         interactor.output = presenter
 
         presenter.interactor = interactor

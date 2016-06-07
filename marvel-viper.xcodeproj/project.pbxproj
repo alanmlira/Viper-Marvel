@@ -7,20 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C29FFE0E642CE74396AAB87A /* Pods_marvel_viper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC5FE7F76DDF4A15ACA6E74 /* Pods_marvel_viper.framework */; };
 		E71FA92C1D0216ED0053AD78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA92B1D0216ED0053AD78 /* AppDelegate.swift */; };
 		E71FA9311D0216ED0053AD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71FA92F1D0216ED0053AD78 /* Main.storyboard */; };
 		E71FA9391D0216ED0053AD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E71FA9371D0216ED0053AD78 /* LaunchScreen.storyboard */; };
 		E71FA9441D0216ED0053AD78 /* marvel_viperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA9431D0216ED0053AD78 /* marvel_viperTests.swift */; };
 		E71FA94F1D0216ED0053AD78 /* marvel_viperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA94E1D0216ED0053AD78 /* marvel_viperUITests.swift */; };
-		E71FA9711D0219340053AD78 /* CharacterListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA96A1D0219340053AD78 /* CharacterListConfigurator.swift */; };
-		E71FA9721D0219340053AD78 /* CharacterListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA96B1D0219340053AD78 /* CharacterListInteractor.swift */; };
-		E71FA9731D0219340053AD78 /* CharacterListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA96C1D0219340053AD78 /* CharacterListPresenter.swift */; };
-		E71FA9741D0219340053AD78 /* CharacterListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA96D1D0219340053AD78 /* CharacterListProtocols.swift */; };
-		E71FA9751D0219340053AD78 /* CharacterListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA96E1D0219340053AD78 /* CharacterListRouter.swift */; };
-		E71FA9761D0219340053AD78 /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71FA96F1D0219340053AD78 /* CharacterListViewController.swift */; };
 		E71FA97B1D021C4E0053AD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E71FA9771D021C4E0053AD78 /* Assets.xcassets */; };
 		E71FA97C1D021C4E0053AD78 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E71FA9781D021C4E0053AD78 /* Info.plist */; };
 		E71FA97D1D021C4E0053AD78 /* marvel_viper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E71FA9791D021C4E0053AD78 /* marvel_viper.xcdatamodeld */; };
+		E74573891D05C47500F2D048 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74573881D05C47500F2D048 /* BaseService.swift */; };
+		E745738E1D05C4E300F2D048 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745738D1D05C4E300F2D048 /* ImageHelper.swift */; };
+		E74573901D05C85F00F2D048 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745738F1D05C85F00F2D048 /* StringExtension.swift */; };
+		E74573961D05C9F100F2D048 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74573951D05C9F100F2D048 /* Thumbnail.swift */; };
+		E74573981D05CA1700F2D048 /* ResponseObjectSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74573971D05CA1700F2D048 /* ResponseObjectSerializable.swift */; };
+		E74573A01D05CA3700F2D048 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74573991D05CA3700F2D048 /* Character.swift */; };
+		E74573A11D05CA3700F2D048 /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739A1D05CA3700F2D048 /* Comic.swift */; };
+		E74573A21D05CA3700F2D048 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739B1D05CA3700F2D048 /* Event.swift */; };
+		E74573A31D05CA3700F2D048 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739C1D05CA3700F2D048 /* Resource.swift */; };
+		E74573A41D05CA3700F2D048 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739D1D05CA3700F2D048 /* Serie.swift */; };
+		E74573A51D05CA3700F2D048 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739E1D05CA3700F2D048 /* Story.swift */; };
+		E74573A61D05CA3700F2D048 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739F1D05CA3700F2D048 /* Url.swift */; };
+		E7BAE1721D07077300AEDEC0 /* CharacterConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1641D07077300AEDEC0 /* CharacterConfigurator.swift */; };
+		E7BAE1731D07077300AEDEC0 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1661D07077300AEDEC0 /* CharacterModel.swift */; };
+		E7BAE1741D07077300AEDEC0 /* CharacterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1681D07077300AEDEC0 /* CharacterInteractor.swift */; };
+		E7BAE1751D07077300AEDEC0 /* CharacterProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1691D07077300AEDEC0 /* CharacterProtocols.swift */; };
+		E7BAE1761D07077300AEDEC0 /* CharacterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE16C1D07077300AEDEC0 /* CharacterPresenter.swift */; };
+		E7BAE1771D07077300AEDEC0 /* CharacterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE16E1D07077300AEDEC0 /* CharacterRouter.swift */; };
+		E7BAE1781D07077300AEDEC0 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1711D07077300AEDEC0 /* CharacterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42EE75A393409970747EBF98 /* Pods-marvel-viper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvel-viper.release.xcconfig"; path = "Pods/Target Support Files/Pods-marvel-viper/Pods-marvel-viper.release.xcconfig"; sourceTree = "<group>"; };
+		E152C997C1F99803E34B747E /* Pods-marvel-viper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-marvel-viper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-marvel-viper/Pods-marvel-viper.debug.xcconfig"; sourceTree = "<group>"; };
 		E71FA9281D0216ED0053AD78 /* marvel-viper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "marvel-viper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71FA92B1D0216ED0053AD78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E71FA9301D0216ED0053AD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,15 +67,30 @@
 		E71FA94A1D0216ED0053AD78 /* marvel-viperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "marvel-viperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E71FA94E1D0216ED0053AD78 /* marvel_viperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = marvel_viperUITests.swift; sourceTree = "<group>"; };
 		E71FA9501D0216ED0053AD78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E71FA96A1D0219340053AD78 /* CharacterListConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListConfigurator.swift; sourceTree = "<group>"; };
-		E71FA96B1D0219340053AD78 /* CharacterListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListInteractor.swift; sourceTree = "<group>"; };
-		E71FA96C1D0219340053AD78 /* CharacterListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListPresenter.swift; sourceTree = "<group>"; };
-		E71FA96D1D0219340053AD78 /* CharacterListProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListProtocols.swift; sourceTree = "<group>"; };
-		E71FA96E1D0219340053AD78 /* CharacterListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListRouter.swift; sourceTree = "<group>"; };
-		E71FA96F1D0219340053AD78 /* CharacterListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
 		E71FA9771D021C4E0053AD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E71FA9781D021C4E0053AD78 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E71FA97A1D021C4E0053AD78 /* marvel_viper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = marvel_viper.xcdatamodel; sourceTree = "<group>"; };
+		E74573881D05C47500F2D048 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		E745738D1D05C4E300F2D048 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
+		E745738F1D05C85F00F2D048 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E74573911D05C8F300F2D048 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		E74573951D05C9F100F2D048 /* Thumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Thumbnail.swift; path = ../Modules/Models/Thumbnail.swift; sourceTree = "<group>"; };
+		E74573971D05CA1700F2D048 /* ResponseObjectSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseObjectSerializable.swift; sourceTree = "<group>"; };
+		E74573991D05CA3700F2D048 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Character.swift; path = ../Modules/Models/Character.swift; sourceTree = "<group>"; };
+		E745739A1D05CA3700F2D048 /* Comic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Comic.swift; path = ../Modules/Models/Comic.swift; sourceTree = "<group>"; };
+		E745739B1D05CA3700F2D048 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Event.swift; path = ../Modules/Models/Event.swift; sourceTree = "<group>"; };
+		E745739C1D05CA3700F2D048 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = ../Modules/Models/Resource.swift; sourceTree = "<group>"; };
+		E745739D1D05CA3700F2D048 /* Serie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Serie.swift; path = ../Modules/Models/Serie.swift; sourceTree = "<group>"; };
+		E745739E1D05CA3700F2D048 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../Modules/Models/Story.swift; sourceTree = "<group>"; };
+		E745739F1D05CA3700F2D048 /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Url.swift; path = ../Modules/Models/Url.swift; sourceTree = "<group>"; };
+		E7BAE1641D07077300AEDEC0 /* CharacterConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterConfigurator.swift; sourceTree = "<group>"; };
+		E7BAE1661D07077300AEDEC0 /* CharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
+		E7BAE1681D07077300AEDEC0 /* CharacterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterInteractor.swift; sourceTree = "<group>"; };
+		E7BAE1691D07077300AEDEC0 /* CharacterProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterProtocols.swift; sourceTree = "<group>"; };
+		E7BAE16C1D07077300AEDEC0 /* CharacterPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterPresenter.swift; sourceTree = "<group>"; };
+		E7BAE16E1D07077300AEDEC0 /* CharacterRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterRouter.swift; sourceTree = "<group>"; };
+		E7BAE1711D07077300AEDEC0 /* CharacterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterViewController.swift; sourceTree = "<group>"; };
+		EAC5FE7F76DDF4A15ACA6E74 /* Pods_marvel_viper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_marvel_viper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C29FFE0E642CE74396AAB87A /* Pods_marvel_viper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +119,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3632E2A52817398757C43BC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAC5FE7F76DDF4A15ACA6E74 /* Pods_marvel_viper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F734A889EE5634E7B9F1CBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E152C997C1F99803E34B747E /* Pods-marvel-viper.debug.xcconfig */,
+				42EE75A393409970747EBF98 /* Pods-marvel-viper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E71FA91F1D0216ED0053AD78 = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +143,8 @@
 				E71FA9421D0216ED0053AD78 /* marvel-viperTests */,
 				E71FA94D1D0216ED0053AD78 /* marvel-viperUITests */,
 				E71FA9291D0216ED0053AD78 /* Products */,
+				9F734A889EE5634E7B9F1CBB /* Pods */,
+				3632E2A52817398757C43BC6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,8 +162,12 @@
 			isa = PBXGroup;
 			children = (
 				E71FA92B1D0216ED0053AD78 /* AppDelegate.swift */,
-				E71FA92F1D0216ED0053AD78 /* Main.storyboard */,
-				E71FA9681D0219340053AD78 /* Modules */,
+				E7BAE1631D07077300AEDEC0 /* Configurator */,
+				E7BAE1651D07077300AEDEC0 /* Data */,
+				E7BAE1671D07077300AEDEC0 /* Logic */,
+				E7BAE16A1D07077300AEDEC0 /* UI */,
+				E745738C1D05C4E300F2D048 /* Helpers */,
+				E74573871D05C47500F2D048 /* Service */,
 				E71FA9701D0219340053AD78 /* Supporting Files */,
 			);
 			path = "marvel-viper";
@@ -136,27 +191,6 @@
 			path = "marvel-viperUITests";
 			sourceTree = "<group>";
 		};
-		E71FA9681D0219340053AD78 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				E71FA9691D0219340053AD78 /* CharacterViewController */,
-			);
-			path = Modules;
-			sourceTree = "<group>";
-		};
-		E71FA9691D0219340053AD78 /* CharacterViewController */ = {
-			isa = PBXGroup;
-			children = (
-				E71FA96A1D0219340053AD78 /* CharacterListConfigurator.swift */,
-				E71FA96B1D0219340053AD78 /* CharacterListInteractor.swift */,
-				E71FA96C1D0219340053AD78 /* CharacterListPresenter.swift */,
-				E71FA96D1D0219340053AD78 /* CharacterListProtocols.swift */,
-				E71FA96E1D0219340053AD78 /* CharacterListRouter.swift */,
-				E71FA96F1D0219340053AD78 /* CharacterListViewController.swift */,
-			);
-			path = CharacterViewController;
-			sourceTree = "<group>";
-		};
 		E71FA9701D0219340053AD78 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,8 +198,103 @@
 				E71FA9781D021C4E0053AD78 /* Info.plist */,
 				E71FA9791D021C4E0053AD78 /* marvel_viper.xcdatamodeld */,
 				E71FA9371D0216ED0053AD78 /* LaunchScreen.storyboard */,
+				E74573911D05C8F300F2D048 /* BridgingHeader.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E74573871D05C47500F2D048 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				E74573881D05C47500F2D048 /* BaseService.swift */,
+				E74573971D05CA1700F2D048 /* ResponseObjectSerializable.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		E745738C1D05C4E300F2D048 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E745738D1D05C4E300F2D048 /* ImageHelper.swift */,
+				E745738F1D05C85F00F2D048 /* StringExtension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E7BAE1631D07077300AEDEC0 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAE1641D07077300AEDEC0 /* CharacterConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		E7BAE1651D07077300AEDEC0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E74573991D05CA3700F2D048 /* Character.swift */,
+				E745739A1D05CA3700F2D048 /* Comic.swift */,
+				E745739B1D05CA3700F2D048 /* Event.swift */,
+				E745739C1D05CA3700F2D048 /* Resource.swift */,
+				E745739D1D05CA3700F2D048 /* Serie.swift */,
+				E745739E1D05CA3700F2D048 /* Story.swift */,
+				E745739F1D05CA3700F2D048 /* Url.swift */,
+				E74573951D05C9F100F2D048 /* Thumbnail.swift */,
+				E7BAE1661D07077300AEDEC0 /* CharacterModel.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E7BAE1671D07077300AEDEC0 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAE1681D07077300AEDEC0 /* CharacterInteractor.swift */,
+				E7BAE1691D07077300AEDEC0 /* CharacterProtocols.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		E7BAE16A1D07077300AEDEC0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAE16B1D07077300AEDEC0 /* Presenter */,
+				E7BAE16D1D07077300AEDEC0 /* Routing */,
+				E7BAE16F1D07077300AEDEC0 /* View */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E7BAE16B1D07077300AEDEC0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAE16C1D07077300AEDEC0 /* CharacterPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E7BAE16D1D07077300AEDEC0 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAE16E1D07077300AEDEC0 /* CharacterRouter.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		E7BAE16F1D07077300AEDEC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E71FA92F1D0216ED0053AD78 /* Main.storyboard */,
+				E7BAE1701D07077300AEDEC0 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E7BAE1701D07077300AEDEC0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E7BAE1711D07077300AEDEC0 /* CharacterViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +304,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E71FA9531D0216ED0053AD78 /* Build configuration list for PBXNativeTarget "marvel-viper" */;
 			buildPhases = (
+				EEB0153D5D0C80AF211F751D /* Check Pods Manifest.lock */,
 				E71FA9241D0216ED0053AD78 /* Sources */,
 				E71FA9251D0216ED0053AD78 /* Frameworks */,
 				E71FA9261D0216ED0053AD78 /* Resources */,
+				755FFB8F287CA5013C80BC20 /* Embed Pods Frameworks */,
+				5C75BE594A09EEF612D9EB2B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,19 +427,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C75BE594A09EEF612D9EB2B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-marvel-viper/Pods-marvel-viper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		755FFB8F287CA5013C80BC20 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-marvel-viper/Pods-marvel-viper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEB0153D5D0C80AF211F751D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E71FA9241D0216ED0053AD78 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E71FA9741D0219340053AD78 /* CharacterListProtocols.swift in Sources */,
-				E71FA9721D0219340053AD78 /* CharacterListInteractor.swift in Sources */,
-				E71FA9761D0219340053AD78 /* CharacterListViewController.swift in Sources */,
-				E71FA9711D0219340053AD78 /* CharacterListConfigurator.swift in Sources */,
-				E71FA9731D0219340053AD78 /* CharacterListPresenter.swift in Sources */,
+				E7BAE1761D07077300AEDEC0 /* CharacterPresenter.swift in Sources */,
+				E745738E1D05C4E300F2D048 /* ImageHelper.swift in Sources */,
+				E74573A51D05CA3700F2D048 /* Story.swift in Sources */,
+				E74573961D05C9F100F2D048 /* Thumbnail.swift in Sources */,
+				E74573981D05CA1700F2D048 /* ResponseObjectSerializable.swift in Sources */,
+				E74573A11D05CA3700F2D048 /* Comic.swift in Sources */,
+				E74573A21D05CA3700F2D048 /* Event.swift in Sources */,
+				E7BAE1771D07077300AEDEC0 /* CharacterRouter.swift in Sources */,
 				E71FA97D1D021C4E0053AD78 /* marvel_viper.xcdatamodeld in Sources */,
-				E71FA9751D0219340053AD78 /* CharacterListRouter.swift in Sources */,
+				E74573A01D05CA3700F2D048 /* Character.swift in Sources */,
+				E7BAE1741D07077300AEDEC0 /* CharacterInteractor.swift in Sources */,
 				E71FA92C1D0216ED0053AD78 /* AppDelegate.swift in Sources */,
+				E7BAE1781D07077300AEDEC0 /* CharacterViewController.swift in Sources */,
+				E7BAE1731D07077300AEDEC0 /* CharacterModel.swift in Sources */,
+				E74573A41D05CA3700F2D048 /* Serie.swift in Sources */,
+				E74573901D05C85F00F2D048 /* StringExtension.swift in Sources */,
+				E7BAE1721D07077300AEDEC0 /* CharacterConfigurator.swift in Sources */,
+				E74573891D05C47500F2D048 /* BaseService.swift in Sources */,
+				E7BAE1751D07077300AEDEC0 /* CharacterProtocols.swift in Sources */,
+				E74573A31D05CA3700F2D048 /* Resource.swift in Sources */,
+				E74573A61D05CA3700F2D048 /* Url.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +542,7 @@
 				E71FA9301D0216ED0053AD78 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E71FA9371D0216ED0053AD78 /* LaunchScreen.storyboard */ = {
@@ -450,23 +644,27 @@
 		};
 		E71FA9541D0216ED0053AD78 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E152C997C1F99803E34B747E /* Pods-marvel-viper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "marvel-viper/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/marvel-viper/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.marvel-viper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "marvel-viper/Supporting Files/BridgingHeader.h";
 			};
 			name = Debug;
 		};
 		E71FA9551D0216ED0053AD78 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42EE75A393409970747EBF98 /* Pods-marvel-viper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "marvel-viper/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/marvel-viper/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.marvel-viper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "marvel-viper/Supporting Files/BridgingHeader.h";
 			};
 			name = Release;
 		};
@@ -535,6 +733,7 @@
 				E71FA9551D0216ED0053AD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E71FA9561D0216ED0053AD78 /* Build configuration list for PBXNativeTarget "marvel-viperTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +742,7 @@
 				E71FA9581D0216ED0053AD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E71FA9591D0216ED0053AD78 /* Build configuration list for PBXNativeTarget "marvel-viperUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +751,7 @@
 				E71FA95B1D0216ED0053AD78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

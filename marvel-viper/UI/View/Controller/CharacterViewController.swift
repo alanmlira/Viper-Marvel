@@ -1,29 +1,30 @@
 //
-//  CharacterListViewController.swift
+//  CharacterViewController.swift
 //  marvel-viper
 //
-//  Created by Alan Lira on 6/3/16.
+//  Created by Alan Lira on 6/7/16.
 //  Copyright (c) 2016 Alan Lira. All rights reserved.
 //
+//  VIPER Template: https://github.com/gui-assis/ViperTemplate
 //  Authors: 
 //    - Guilherme Assis http://github.com/gui-assis 
 //    - Alan Lira http://github.com/alanmlira
 
 import UIKit
 
-class CharacterListViewController: UIViewController, CharacterListViewInput {
+class CharacterViewController: UIViewController, CharacterViewInput {
 
-    var output: CharacterListViewOutput?
+    var output: CharacterViewOutput?
 
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        CharacterListModuleConfigurator.configure(self)
+        CharacterModuleConfigurator.configure(self)
         output!.viewIsReady()
     }
 
 
-    // MARK: CharacterListViewInput
+    // MARK: CharacterViewInput
     func setupInitialState() {
     }
 }
