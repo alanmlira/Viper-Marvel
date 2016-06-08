@@ -19,7 +19,7 @@ protocol CharacterViewOutput: class {
 protocol CharacterViewInput: class {
     var output: CharacterViewOutput? { get set }
     
-    func setupInitialState()
+    func showListView(characters: [CharacterModel])
 }
 
 protocol CharacterRouterInput: class {
@@ -33,9 +33,14 @@ protocol CharacterModuleInput: class {
 }
 
 protocol CharacterInteractorOutput: class {
+    func didFetchCharacterList(characters: [CharacterModel])
+    func didFailFetchCharacterList(message: String)
+    func didFetchCharacterSearchList(characters: [CharacterModel])
     
 }
 
 protocol CharacterInteractorInput: class {
     var output: CharacterInteractorOutput? { get set }
+    
+    func fetchList(offset: Int, characterName: String?)
 }

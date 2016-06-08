@@ -28,6 +28,8 @@
 		E74573A41D05CA3700F2D048 /* Serie.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739D1D05CA3700F2D048 /* Serie.swift */; };
 		E74573A51D05CA3700F2D048 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739E1D05CA3700F2D048 /* Story.swift */; };
 		E74573A61D05CA3700F2D048 /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = E745739F1D05CA3700F2D048 /* Url.swift */; };
+		E776217F1D085BE100BD09DB /* CharactersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776217E1D085BE100BD09DB /* CharactersService.swift */; };
+		E77621821D086DD800BD09DB /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77621811D086DD800BD09DB /* Enums.swift */; };
 		E7BAE1721D07077300AEDEC0 /* CharacterConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1641D07077300AEDEC0 /* CharacterConfigurator.swift */; };
 		E7BAE1731D07077300AEDEC0 /* CharacterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1661D07077300AEDEC0 /* CharacterModel.swift */; };
 		E7BAE1741D07077300AEDEC0 /* CharacterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BAE1681D07077300AEDEC0 /* CharacterInteractor.swift */; };
@@ -83,6 +85,8 @@
 		E745739D1D05CA3700F2D048 /* Serie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Serie.swift; path = ../Modules/Models/Serie.swift; sourceTree = "<group>"; };
 		E745739E1D05CA3700F2D048 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../Modules/Models/Story.swift; sourceTree = "<group>"; };
 		E745739F1D05CA3700F2D048 /* Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Url.swift; path = ../Modules/Models/Url.swift; sourceTree = "<group>"; };
+		E776217E1D085BE100BD09DB /* CharactersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharactersService.swift; sourceTree = "<group>"; };
+		E77621811D086DD800BD09DB /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		E7BAE1641D07077300AEDEC0 /* CharacterConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterConfigurator.swift; sourceTree = "<group>"; };
 		E7BAE1661D07077300AEDEC0 /* CharacterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterModel.swift; sourceTree = "<group>"; };
 		E7BAE1681D07077300AEDEC0 /* CharacterInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterInteractor.swift; sourceTree = "<group>"; };
@@ -166,6 +170,7 @@
 				E7BAE1651D07077300AEDEC0 /* Data */,
 				E7BAE1671D07077300AEDEC0 /* Logic */,
 				E7BAE16A1D07077300AEDEC0 /* UI */,
+				E77621801D086D5700BD09DB /* Enums */,
 				E745738C1D05C4E300F2D048 /* Helpers */,
 				E74573871D05C47500F2D048 /* Service */,
 				E71FA9701D0219340053AD78 /* Supporting Files */,
@@ -208,6 +213,7 @@
 			children = (
 				E74573881D05C47500F2D048 /* BaseService.swift */,
 				E74573971D05CA1700F2D048 /* ResponseObjectSerializable.swift */,
+				E776217E1D085BE100BD09DB /* CharactersService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -219,6 +225,14 @@
 				E745738F1D05C85F00F2D048 /* StringExtension.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E77621801D086D5700BD09DB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E77621811D086DD800BD09DB /* Enums.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 		E7BAE1631D07077300AEDEC0 /* Configurator */ = {
@@ -489,12 +503,14 @@
 				E74573A21D05CA3700F2D048 /* Event.swift in Sources */,
 				E7BAE1771D07077300AEDEC0 /* CharacterRouter.swift in Sources */,
 				E71FA97D1D021C4E0053AD78 /* marvel_viper.xcdatamodeld in Sources */,
+				E77621821D086DD800BD09DB /* Enums.swift in Sources */,
 				E74573A01D05CA3700F2D048 /* Character.swift in Sources */,
 				E7BAE1741D07077300AEDEC0 /* CharacterInteractor.swift in Sources */,
 				E71FA92C1D0216ED0053AD78 /* AppDelegate.swift in Sources */,
 				E7BAE1781D07077300AEDEC0 /* CharacterViewController.swift in Sources */,
 				E7BAE1731D07077300AEDEC0 /* CharacterModel.swift in Sources */,
 				E74573A41D05CA3700F2D048 /* Serie.swift in Sources */,
+				E776217F1D085BE100BD09DB /* CharactersService.swift in Sources */,
 				E74573901D05C85F00F2D048 /* StringExtension.swift in Sources */,
 				E7BAE1721D07077300AEDEC0 /* CharacterConfigurator.swift in Sources */,
 				E74573891D05C47500F2D048 /* BaseService.swift in Sources */,

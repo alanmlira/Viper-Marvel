@@ -22,7 +22,7 @@ class CharacterModuleConfigurator {
         presenter.view = viewController
         presenter.router = router
 
-        let interactor = CharacterInteractor()
+        let interactor = CharacterInteractor(service: CharactersService())
         interactor.output = presenter
 
         presenter.interactor = interactor
