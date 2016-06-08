@@ -19,7 +19,11 @@ class Thumbnail: ResponseObjectSerializable {
         self.imageExtension = json["extension"].stringValue
     }
     
-    func getThumbUrl() -> NSURL {
-        return NSURL(string: "\(self.path).\(self.imageExtension)")!
+    func getThumbUrl() -> NSURL? {
+        return NSURL(string: self.resourcePath())
+    }
+    
+    func resourcePath() -> String {
+        return "\(self.path).\(self.imageExtension)"
     }
 }

@@ -13,14 +13,17 @@ public typealias ImageLoadCompletionBlock = (image: UIImage?) -> Void
 
 class ImageHelper: NSObject {
     
-    class func loadImageWithUrl(url: NSURL, completion: ImageLoadCompletionBlock) {
+    class func loadImageWithUrl(nsurl: NSURL?, completion: ImageLoadCompletionBlock) {
+        guard let url = nsurl else {
+            return
+        }
         
         let downloader = KingfisherManager.sharedManager.downloader
         let myCache = ImageCache(name: url.absoluteString)
         
         let optionInfo: KingfisherOptionsInfo = [
-            .ForceRefresh,
-            .TargetCache(myCache)
+            .TargetCache(myCache),
+            .Transition(ImageTransition.Fade(1))
         ]
         
         downloader.downloadImageWithURL(url, options: optionInfo, progressBlock: nil) { (image, error, imageURL, originalData) -> () in
@@ -35,7 +38,7 @@ extension UIImageView {
             self.image = _placeholder
         }
         
-        ImageHelper.loadImageWithUrl(NSURL(string: url)!) { (image) -> Void in
+        ImageHelper.loadImageWithUrl(NSURL(string: url)) { (image) -> Void in
             self.image = image
         }
     }

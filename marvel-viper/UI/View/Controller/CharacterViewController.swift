@@ -67,7 +67,7 @@ extension CharacterViewController : UITableViewDataSource {
         let cell = initCell()
         cell.imageView?.image = nil
         
-        if let text = characterList?[indexPath.row].name, imgUrl = characterList?[indexPath.row].thumbnail.getThumbUrl().absoluteString {
+        if let text = characterList?[indexPath.row].name, imgUrl = characterList?[indexPath.row].thumbnail.getThumbUrl()?.absoluteString {
             setupCell(cell, text: text, urlImage: imgUrl)
         }
         
